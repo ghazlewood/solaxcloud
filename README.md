@@ -1,16 +1,16 @@
 # SolaxCloud integration for Home Assistant.
 
-Solax Clound integration based on the (now publicly accssible) SolaxCloud API.
-This component is basically a rewrite of [thomascys/solaxcloud](https://github.com/thomascys/solaxcloud).
+Solax Cloud integration based on the (now publicly accssible) SolaxCloud API.
+This component is basically a rewrite of [thomascys/solaxcloud](https://github.com/thomascys/solaxcloud) which used the old system.
 You need:
 
 - The API Key which is accessible in the Service menu of your SolaxCloud.
 - The Inverter Serial Number (SN) is the 10 character Registration No. of the
-  specific inverter (see the Inverters menu in SolaxCloud)
+  specific inverter (see the Inverter's menu in SolaxCloud)
 
 ## Installation
 
-- Place this directory in `/config/cusotm_components`. If `cusotm_components`
+- Place this directory in `/config/custom_components`. If `custom_components`
   does not exist, you have to create it.
 - Add the sensor to your configuration.yaml:
 ```yaml
@@ -21,7 +21,7 @@ sensor:
     sn: YOUR_INVERTER_SN
 ```
 - Verify that the custom entities are available in home assistant (Total Yield,
-  Daily Yield and AC Power).
+  Daily Yield and AC Power etc).
 
 ## Multiple Inverters
 
